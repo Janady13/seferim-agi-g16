@@ -1,0 +1,28 @@
+{
+  "name": "seferim-dashboard",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "start": "node server/index.js",
+    "dev": "concurrently \"vite\" \"node server/index.js\"",
+    "serve": "vite preview",
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.16.0",
+    "chokidar": "^3.6.0",
+    "recharts": "^2.13.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vite": "^5.0.10",
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2"
+  }
+}
+

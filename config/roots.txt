@@ -1,0 +1,7 @@
+# Memory indexer root paths — opt-in directories to index.
+# Replace these examples with your own paths. The indexer only reads
+# the directories you list here.
+#
+# Example:
+# /path/to/your/research/repo
+# /path/to/your/notes

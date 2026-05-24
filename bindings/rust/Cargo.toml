@@ -1,0 +1,9 @@
+[package]
+name = "g16_core_rs"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+name = "g16_core_rs"
+path = "src/lib.rs"
+

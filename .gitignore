@@ -1,0 +1,62 @@
+# Build outputs
+build/
+dist/
+out/
+
+# Dependencies
+node_modules/
+*.egg-info/
+
+# Runtime data (sensitive — never commit)
+data/
+logs/
+snapshots/
+persistent_state/
+*.jsonl
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+.*.swp
+.*.swo
+
+# C++ build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+
+# Rust
+target/
+Cargo.lock
+
+# Go
+go.sum
+
+# Node
+package-lock.json
+yarn.lock
+.netlify/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Tarballs
+*.tar
+*.tar.gz
+*.tar.zst
+*.zst
+*.zip
