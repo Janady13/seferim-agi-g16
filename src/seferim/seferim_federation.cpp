@@ -24,7 +24,6 @@ extern "C" {
 
 // forward decl from allocator.cpp
 namespace seferim_alloc {
-  std::vector<g16v2::SubstrateState> /*dummy*/;
   std::vector<float> compute_allocation(const std::vector<float>& relevance,
                                         const std::vector<g16v2::SubstrateState>& subs);
 }
