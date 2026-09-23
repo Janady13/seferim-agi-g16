@@ -54,4 +54,13 @@ enable_testing()
 add_test(NAME test_g16_v2 COMMAND test_g16_v2)
 add_test(NAME g16_core_tests COMMAND g16_core_tests)
 
-install(TARGETS agi_bridge_v2 RUNTIME DESTINATION bin)
+install(TARGETS
+  agi_bridge_v2
+  agi_stream
+  agi_core
+  agi_loop
+  agi_opt
+  agi_profile
+  agi_step
+  RUNTIME DESTINATION bin
+)
